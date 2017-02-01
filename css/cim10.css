@@ -48,7 +48,7 @@ body
   font-size: 150%;
   padding: .5em;
   margin: 1em;
-  width: 80%;
+  width: 60%;
 }
 
 .tree li
@@ -76,4 +76,16 @@ body
   cursor:pointer;
   color: #444;
   font-weight: normal;
+}
+
+div#help
+{
+  position:fixed;
+  right:2%;
+  top:5%;
+  width:40%;
+  padding:1em;
+
+  border-radius:10px;
+  background-color:rgba(160, 20, 200, .7);
 }
